@@ -1,0 +1,81 @@
+/*
+
+This CSS file will be included with your plugin, and
+available in the app when your plugin is enabled.
+
+If your plugin does not need CSS, delete this file.
+
+*/
+
+/* Hide source files that have a corresponding file note */
+.file-note-hidden {
+	display: none !important;
+}
+
+/* Delete confirmation modal styles */
+.file-note-delete-list {
+	max-height: 200px;
+	overflow: auto;
+	border: 1px solid var(--background-modifier-border);
+	border-radius: 4px;
+	padding: 8px;
+	margin-bottom: 16px;
+}
+
+.file-note-delete-list ul {
+	margin: 0;
+	padding-left: 20px;
+}
+
+.file-note-button-container {
+	display: flex;
+	justify-content: flex-end;
+	gap: 8px;
+}
+
+/* Note template setting styles */
+.setting-item:has(.file-note-template-container) {
+	display: block;
+}
+
+.setting-item:has(.file-note-template-container) .setting-item-info {
+	width: 100%;
+}
+
+.file-note-template-container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin: 12px 0;
+}
+
+.file-note-template-textarea {
+	width: 100%;
+	min-width: 200px;
+	min-height: 2.5em;
+	padding: 8px;
+	border: 1px solid var(--background-modifier-border);
+	border-radius: 4px;
+	background-color: var(--background-primary);
+	color: var(--text-normal);
+	font-family: var(--font-monospace);
+	font-size: var(--font-ui-small);
+	resize: vertical;
+	field-sizing: content;
+}
+
+.file-note-template-textarea:focus {
+	border-color: var(--interactive-accent);
+	outline: none;
+}
+
+.file-note-template-examples {
+	width: 100%;
+	color: var(--text-muted);
+	font-size: var(--font-ui-smaller);
+	margin-top: 4px;
+}
+
+.file-note-template-examples code {
+	font-size: var(--font-ui-smaller);
+}
