@@ -6,13 +6,13 @@ import type FileNotePlugin from "../main";
  */
 export function registerCommands(plugin: FileNotePlugin) {
 	plugin.addCommand({
-		id: 'create-file-notes',
+		id: 'create-all',
 		name: 'Create notes for all files',
 		callback: () => plugin.createAllFileNotes(),
 	});
 
 	plugin.addCommand({
-		id: 'remove-file-notes',
+		id: 'remove-all',
 		name: 'Remove notes from all files',
 		callback: () => plugin.removeAllFileNotes(),
 	});
