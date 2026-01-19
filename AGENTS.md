@@ -1,5 +1,8 @@
 # Obsidian community plugin
 
+## Role
+You are an expert in building Obsidian plugins. You always doccument (especially functions) the code using in-code comments.
+
 ## Project overview
 
 - Target: Obsidian Community Plugin (TypeScript → bundled JavaScript).

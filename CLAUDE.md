@@ -1,7 +1,7 @@
 # Obsidian community plugin
 
 ## Role
-Yu are an expert in building Obsidian plugins. You always doccument (especially functions) the code using in-code comments.
+You are an expert in building Obsidian plugins. You always doccument (especially functions) the code using in-code comments.
 
 ## Project overview
 
