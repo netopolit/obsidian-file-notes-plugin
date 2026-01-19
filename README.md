@@ -1,4 +1,4 @@
-# File Notes Plugin
+# File Notes
 
 A plugin for [Obsidian](https://obsidian.md) that creates markdown notes for non-native file formats (mp4, pdf, png, and other binary files), allowing you to add metadata, tags, and backlinks to any file type.
 
