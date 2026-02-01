@@ -128,7 +128,7 @@ export class FileNoteSettingTab extends PluginSettingTab {
 				sourceFrontmatterToggle.setValue(true);
 				sourceFrontmatterToggle.setDisabled(true);
 			} else {
-				// Enable toggle for other modes
+				// Enable toggle for other modes (user can manually toggle)
 				sourceFrontmatterToggle.setDisabled(false);
 			}
 		};
